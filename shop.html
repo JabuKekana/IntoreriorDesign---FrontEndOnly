@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inoterior Design - Shop</title>
+<!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+<!--Font Awesome, JQuery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<!--CSS (Bootstrap Overrride)-->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+<!-- NAVIGATION BAR STARTS -->
+
+    <nav class="navbar1">
+        <div class="max-width">
+            <div class="logo">
+                <a>
+                    <img src="images/87lgo.png" alt="" width="50rem">
+                </a>
+            </div>
+            <ul class="menu1">
+                <li>
+                    <a href="/index.html" class="menu1-btn">HOME</a>
+                </li>
+                <li>
+                    <a href="/shop.html" class="menu1-btn">SHOP</a>
+                </li>
+                <li>
+                    <a href="/index.html#about" class="menu1-btn">ABOUT</a>
+                </li>
+                <li>
+                    <a href="/index.html#services" class="menu1-btn">SERVICES</a>
+                </li>
+                <li>
+                    <a href="/index.html#contact" class="menu1-btn">CONTACT</a>
+                </li>
+            </ul>
+            <div class="cart-icon">
+                <button type="button" class="" data-bs-toggle="modal" data-bs-target="#cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    (<span class="total-count"></span>)
+                </button>
+            </div>
+            <div class="menu1-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+<!-- NAVIGATION BAR ENDS -->
+
+
+<!-- HOME SECTION ENDS -->
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-2">Inoterior Design</div>
+                <div class="text-1">Specialist In Wood Works</div>
+                <div class="text-3">
+                    <span class="typing"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- HOME SECTION ENDS -->
+    
+<!-- SHOP PRODUCTS SECTION STARTS -->
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="images/Picsart_22-11-07_13-40-22-100.jpg" alt="Image">
+            <h4 class="card-title">Elton <br> Corner Sofa</h4>
+            <p class="card-text">Price: R13 449,99</p>
+            <a href="#" data-name="Elton&nbspCorner&nbspSofa" data-price="13449.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-07_13-46-41-388.jpg" alt="Image">
+            <h4 class="card-title">Venezia Dining Table <br> (Table Only)</h4>
+            <p class="card-text">Price: R7 999,99</p>
+            <a href="#" data-name="Venezia&nbspDining&nbspTable" data-price="7999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-07_13-43-40-238.jpg" alt="Image">
+            <h4 class="card-title">Barcelona 4 Seater <br> Dining Suite</h4>
+            <p class="card-text">Price: R22 000,00</p>
+            <a href="#" data-name="Barcelona&nbsp4&nbspSeater&nbspDining&nbspSuite" data-price="22000.00" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-12_20-36-11-711.jpg" alt="Image">
+            <h4 class="card-title">Glass Top Dining Table <br> Set With 4 Chairs</h4>
+            <p class="card-text">Price: R14 695,99</p>
+            <a href="#" data-name="Glass&nbspTop&nbspDining&nbspTable" data-price="14695.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/yhshuu.jpg" alt="Image">
+            <h4 class="card-title">Athena 5 Piece <br> Dining Set</h4>
+            <p class="card-text">Price: R5 999,99</p>
+            <a href="#" data-name="Athena&nbsp5&nbspPiece&nbspDining&nbspSet" data-price="5999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-07_13-41-18-431.jpg" alt="Image">
+            <h4 class="card-title">Atelier <br> Table</h4>
+            <p class="card-text">Price: R2 499,99</p>
+            <a href="#" data-name="Atelier&nbspTable" data-price="2499.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/tttttt.jpg" alt="Image">
+            <h4 class="card-title">Iron TV unit Black <br> + Geo Panel</h4>
+            <p class="card-text">Price: R15 999,99</p>
+            <a href="#" data-name="Iron&nbspTV&nbspUnit&nbspBlack&nbsp+&nbspGeo&nbspPanel" data-price="15999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/ooooo.jpg" alt="Image">
+            <h4 class="card-title">Colonia TV <br> Unit White</h4>
+            <p class="card-text">Price: R8 999,99</p>
+            <a href="#" data-name="Colonia&nbspTV&nbspUnit&nbspWhite" data-price="8999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-12_20-59-11-964.jpg" alt="Image">
+            <h4 class="card-title">Colonia <br> TV Unit</h4>
+            <p class="card-text">Price: R9 000,00</p>
+            <a href="#" data-name="Colonia&nbspTV&nbspUnit" data-price="9000.00" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/uuuuu.jpg" alt="Image">
+            <h4 class="card-title">Ica <br> TV Stand</h4>
+            <p class="card-text">Price: R7 999,99</p>
+            <a href="#" data-name="Ica&nbspTV&nbspStand" data-price="7999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-07_13-45-24-134.jpg" alt="Image">
+            <h4 class="card-title">Knox <br> Coffee Table</h4>
+            <p class="card-text">Price: R4 999,99</p>
+            <a href="#" data-name="Knox&nbspCoffee&nbspTable" data-price="4999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-12_20-49-21-816.jpg" alt="Image">
+            <h4 class="card-title">Coffee <br> Table Black</h4>
+            <p class="card-text">Price: R4 999,99</p>
+            <a href="#" data-name="Coffee&nbspTable&nbspBlack" data-price="4999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/IMG124567tg.jpg" alt="Image">
+            <h4 class="card-title">Kartelli <br> Coffee Table</h4>
+            <p class="card-text">Price: R6 999,99</p>
+            <a href="#" data-name="Kartelli&nbspCoffee&nbspTable" data-price="6999.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/yuibg.jpg" alt="Image">
+            <h4 class="card-title">Zenti <br> Coffee Table</h4>
+            <p class="card-text">Price: R6 699,99</p>
+            <a href="#" data-name="Zenti&nbspCoffee&nbspTable" data-price="6699.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+        <div class="product-card">
+            <img src="images/Picsart_22-11-12_20-35-17-445.jpg" alt="Image">
+            <h4 class="card-title">Coffee <br> Table</h4>
+            <p class="card-text">Price: R5 499,99</p>
+            <a href="#" data-name="Coffee&nbspTable" data-price="5499.99" class="add-to-cart AddCartBtn">ADD TO CART</a>
+        </div>
+    </div>
+
+<!-- SHOP PRODUCTS SECTION ENDS -->
+        
+
+
+<!--CART MODAL SECTION STARTS-->
+
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="btn btn-danger close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table"></table>
+                    <div>
+                        Total price: R<span class="total-cart"></span>
+                    </div>
+                </div>
+                <!--Start of Modal Form-->
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Full Name:</label>
+                        <input type="text" class="form-control" id="recipient-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-email" class="col-form-label form-control-plaintext">Email Address:</label>
+                        <input type="text" class="form-control" id="recipient-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-number" class="col-form-label">Phone Number:</label>
+                        <input type="text" class="form-control" id="recipient-number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-number" class="col-form-label">Delivery Address:</label>
+                        <input type="text" class="form-control" id="recipient-address" required>
+                    </div><br>        
+                </form>
+                <div class="modal-footer">                          
+                    <!--End of Modal Form-->
+                   <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+                   <button type="button" class="btn btn-primary">Order now</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<!--CART MODAL SECTION ENDS -->
+
+<!-- FOOTER SECTION STARTS -->
+
+    <footer>
+        <span>Inoterior Design | 
+            <span class="far fa-copyright"></span> 2022 All rights reserved.
+        </span>
+    </footer>
+
+<!-- FOOTER SECTION ENDS -->
+        
+        
+    <script src="script.js"></script>
+</body>
+</html>
+    
